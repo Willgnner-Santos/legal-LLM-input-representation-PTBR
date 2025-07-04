@@ -2,6 +2,8 @@
 
 This study evaluates the use of Large Language Models (LLMs) with prompt engineering for classifying legal petitions in Portuguese by procedural type. Four input representations are compared: full text, summaries, centroids, and semantic descriptions. The experiments use real data in Portuguese from a Public Defender's Office in Brazil. Results show that summaries reduce token cost by more than 90\% and improve macro F1-score. The findings confirm that input representation can impact LLM effectiveness. LLMs via prompting outperform traditional models without requiring labeled data or training. The approach can be flexible and economically viable for legal document classification.
 
+## To run Classic Models, you can make a copy of the Jupiter notebooks via Google Colab, configure the environment by installing the libraries present in the codes, change the synthetic data directory and create folders in Google Drive, for example to save evaluation metrics, improve Classic Models, etc.
+
 ## Prerequisites
 
 - **Python 3.8+**
